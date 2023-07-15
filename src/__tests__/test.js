@@ -13,6 +13,6 @@ test('basic test', () => {
         { name: 'мечник', health: 10 },
       ];
       
-    expect(result).toBe(life(characters))
+    expect(life(characters)).toEqual(result)
 
 })
